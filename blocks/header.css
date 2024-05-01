@@ -1,14 +1,13 @@
 .header {
   margin-top: 45px;
-  height: 73px;
-  border-bottom: solid #545454 1px;
+  min-height: 73px;
+  border-bottom: solid rgba(84, 84, 84, 0.7) 1px;
 }
 
 @media screen and (max-width: 618px) {
   .header {
     margin-top: 28px;
-    height: 56px;
-    border-bottom: solid #545454 1px;
+    min-height: 56px;
   }
 
   .header__logo {
@@ -17,10 +16,6 @@
 }
 
 @media screen and (max-width: 320px) {
-  .header {
-    margin-top: 28px;
-  }
-
   .header__logo {
     padding-left: 27px;
   }

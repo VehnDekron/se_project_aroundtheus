@@ -34,6 +34,6 @@ Good luck and have fun!
 - adding a hover state for the images like ones seen in some of the lessons that would allow a person to view a larger version of the images
 - button functionality as well as profile functionality
 
-## Project link
+## Project & Video Explanation link
 
--- https://github.com/VehnDekron/se_project_aroundtheus --
+-- https://VehnDekron.github.io/se_project_aroundtheus --

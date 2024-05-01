@@ -15,7 +15,8 @@
   display: flex;
   background-color: #fff;
   color: #000;
-  padding: 25px 30px 25px 20px;
+  margin: 0;
+  padding: 25px 20px;
   align-items: center;
   justify-content: space-between;
 }
@@ -37,6 +38,6 @@
 }
 
 .card__like-button:hover {
-  opacity: 60%;
+  opacity: 50%;
   cursor: pointer;
 }
