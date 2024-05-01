@@ -37,3 +37,5 @@ Good luck and have fun!
 ## Project & Video Explanation link
 
 -- https://VehnDekron.github.io/se_project_aroundtheus --
+
+-- https://drive.google.com/file/d/1R3I7OZj4rWTvR3H0x2tNmb7RxRPYxVob/view?usp=sharing --
