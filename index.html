@@ -56,6 +56,7 @@
       </main>
     </div>
 
+    <!-- Profile Edit Modal -->
     <div class="modal" id="profile-edit-modal">
       <div class="modal__container">
         <button
@@ -65,7 +66,7 @@
           aria-label="Close button"
         ></button>
         <p class="modal__heading">Edit profile</p>
-        <form class="modal__form">
+        <form class="modal__form" id="profile-edit-form">
           <input
             class="modal__form-input"
             type="text"
@@ -79,6 +80,36 @@
             name="description"
             id="profile-description-input"
             placeholder="Desciption"
+          />
+          <button class="modal__save-button" type="submit">Save</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Add Card Modal -->
+    <div class="modal" id="add-card-modal">
+      <div class="modal__container">
+        <button
+          class="modal__close-button"
+          type="button"
+          id="profile-close-button"
+          aria-label="Close button"
+        ></button>
+        <p class="modal__heading">New place</p>
+        <form class="modal__form" id="add-card-form">
+          <input
+            class="modal__form-input"
+            type="text"
+            name="title"
+            id="image-title-input"
+            placeholder="Title"
+          />
+          <input
+            class="modal__form-input"
+            type="text"
+            name="link"
+            id="image-link-input"
+            placeholder="Image link"
           />
           <button class="modal__save-button" type="submit">Save</button>
         </form>
