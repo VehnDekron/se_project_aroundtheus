@@ -39,6 +39,10 @@
   padding: 0;
 }
 
+.card__like-button_active {
+  background: url(../images/like_button-dark.svg);
+}
+
 .card__like-button:hover {
   opacity: 50%;
   cursor: pointer;
