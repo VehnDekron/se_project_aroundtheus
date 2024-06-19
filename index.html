@@ -98,14 +98,14 @@
         <p class="modal__heading">New place</p>
         <form class="modal__form" id="add-card-form">
           <input
-            class="modal__form-input model__input_type_title"
+            class="modal__form-input modal__input_type_title"
             type="text"
             name="title"
             id="image-title-input"
             placeholder="Title"
           />
           <input
-            class="modal__form-input model__input_type_url"
+            class="modal__form-input modal__input_type_url"
             type="text"
             name="link"
             id="image-link-input"
@@ -116,8 +116,27 @@
       </div>
     </div>
 
+    <!-- card preview modal -->
+    <div class="modal" id="preview-image-modal">
+      <div class="modal__container modal__image-container">
+        <button
+          class="modal__close-button"
+          type="button"
+          id="modal-close-button"
+          aria-label="Close button"
+        ></button>
+        <img class="modal__preview-image" src="" alt="" />
+        <p class="modal__image-caption"></p>
+      </div>
+    </div>
+
     <template id="card-template">
       <li class="card">
+        <button
+          class="card__delete-button"
+          type="button"
+          aria-label="Delete button"
+        ></button>
         <img src="" alt="" class="card__image" />
         <div class="card__description">
           <h2 class="card__description-text"></h2>

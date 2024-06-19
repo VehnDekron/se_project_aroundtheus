@@ -5,15 +5,19 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
   z-index: 999;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 19px;
+  transition: visibility 0.5s linear, opacity 0.5s linear;
 }
 
 .modal_opened {
-  display: flex;
+  visibility: visible;
+  opacity: 1;
 }
 
 .modal__container {
@@ -99,6 +103,31 @@
 
 .modal__save-button:hover {
   opacity: 0.8;
+}
+
+.modal__image-container {
+  max-width: 75vw;
+  max-height: 75vh;
+  height: auto;
+  width: auto;
+  background: transparent;
+  display: flex;
+  padding: 0;
+}
+
+.modal__preview-image {
+  max-width: 75vw;
+  max-height: 75vh;
+  display: flex;
+  background: none;
+  width: auto;
+}
+
+.modal__image-caption {
+  margin: 10px 0 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.8;
 }
 
 @media screen and (max-width: 618px) {
